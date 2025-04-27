@@ -21,7 +21,7 @@ hr {
     .rodape {
         display: flex;
         padding: 3rem 1.5rem ;    
-        gap: 3.8rem;          
+        justify-content: space-between;      
     }
 
     .rodape__titulo {
