@@ -103,7 +103,12 @@
 
     .descrição__texto {
         font-size: 1rem;
+    }    
+}
+
+@media screen and (min-width: 1728px) {
+    .carrossel__container {
+        display: flex;
     }
 
-    
 }
