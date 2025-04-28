@@ -66,12 +66,16 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
 
 
 @media screen and (min-width: 1024px) {
 
     .cabeçalho {
-        padding: 0 2em;
+        padding: 0 3em;
     }
 
     .cabeçalho__menu-hamburguer {
@@ -113,7 +117,38 @@
     .container__imagem-transparente {
         display: none;
     }
+
+    .container__texto {
+        display: none;
+    }
    
+    }
+
+    @media screen and (min-width: 1728px) {
+
+        .cabeçalho {
+            gap: 2.5rem;
+        }  
+
+        .container__link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: var(--preto-principal);
+            padding-left: 2em;
+
+        }
+
+        .container__texto {
+            font-size: 1.25rem;
+            display: block;
+        }
+
+        .opções {
+           margin-right: auto;
+        }
+
+
     }
     
 
