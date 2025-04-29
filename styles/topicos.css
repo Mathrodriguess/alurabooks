@@ -47,6 +47,16 @@
     .tópicos__link {
         font-size: 1.5rem;
     }
+}
 
+@media screen and (min-width: 1728px) {
+
+    .tópicos__lista {
+        margin: 2em 35em 2em;   
+    }
+
+    .tópicos__titulo {
+        font-size: 2rem;
+    }
 
 }
