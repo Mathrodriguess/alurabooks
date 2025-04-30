@@ -62,3 +62,21 @@
         font-size: 1rem;
     }    
 }
+
+@media screen and (min-width: 1728px) {
+
+   .contato {
+        padding: 4rem 0;
+        gap: 0;
+    }
+
+
+    .contato__texto {
+        width: 80%;
+    }
+  
+   .contato__email {
+        width: 25%;
+    }
+
+}

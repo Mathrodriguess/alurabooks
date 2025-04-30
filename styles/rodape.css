@@ -47,3 +47,16 @@ hr {
     }
 
 }
+
+@media screen and (min-width: 1728px) {
+
+    .rodape {
+        padding: 4rem 15%;         
+    }
+
+    .lista {
+       border-left: 1px solid var(--cinza);
+       padding-left: 1rem;
+    }
+    
+}

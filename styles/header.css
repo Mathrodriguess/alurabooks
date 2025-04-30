@@ -123,8 +123,7 @@
     }
    
     }
-
-    @media screen and (min-width: 1728px) {
+@media screen and (min-width: 1728px) {
 
         .cabeçalho {
             gap: 2.5rem;
