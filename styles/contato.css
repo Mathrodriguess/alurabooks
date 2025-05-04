@@ -37,6 +37,9 @@
     padding-left: 2em;
 }
 
+.contato__email:focus::placeholder {
+    opacity: 0;
+}
 
 @media screen and (min-width: 1024px) {
 
